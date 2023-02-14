@@ -55,16 +55,12 @@
     left: -60px;
 }
 
-#nav-icon2.open span: nth-child(3) {
+#nav-icon1.open span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
-}
-
-#nav-icon1 {
-    display:none;
 }
 
 @media (max-width: 700px) {

@@ -3,8 +3,9 @@
 .hero-main{
   display: grid;
   grid-template-columns: 60% 40%;
-  height: 90vh;
-  margin-top: 3em;
+  height: 100vh;
+  margin-top: 6em;
+  margin-left: 10em;
 }
 
 .heading-section {
@@ -21,7 +22,7 @@ body{
 .name{
   font-size: 3em;
   font-weight: bold;
-  margin-legt: -1em;
+  margin-left: -1em;
   margin-bottom: -0.9em;
   margin-top: -2em;
   font-family: 'Didact Gothic', sans-serif;

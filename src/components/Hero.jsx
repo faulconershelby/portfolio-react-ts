@@ -5,11 +5,11 @@ import {Canvas} from "@react-three/fiber"
 
 export default function Hero() {
     return (
-        <div class= "hero-main" id="hero">
+        <div className= "hero-main" id="hero">
             <div className = "heading-section">
                 <div className = "intro">
                 <ReactTypingEffect
-                    text = {["Hello!", "My name is Shelby.", "I am a software engineer.", "... and much more!"]}
+                    text = {["Hello!", "My name is Shelby.", "I am a software engineer.", "JavaScript", "React", "Python", "GraphQL"]}
                     speed = {100}
                     typingDelay = {1000}
                     eraseDelay = {1000}
@@ -21,10 +21,6 @@ export default function Hero() {
                 />
                 </div>
             </div>
-
-            <Canvas className = "box-object">
-                <Box/>
-            </Canvas>
 
         </div>
     )

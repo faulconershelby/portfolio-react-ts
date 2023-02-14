@@ -12,7 +12,7 @@ export default function App() {
         <Tourus colors={"white"}/>
       </Canvas>
 
-      <div style = {{position: "fixed", width:"100%"}}>
+      <div style = {{position: "fixed", width:"0%"}}>
         <Navbar/>
         <Hero/>
       </div>  

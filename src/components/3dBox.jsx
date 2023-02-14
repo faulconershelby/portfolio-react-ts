@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
-import Cyber from "../assets/cyber.jpg"
+import Cyber from "..//assets/cyber.jpg"
 
 export default function Box(props) {
   const mesh = useRef();
