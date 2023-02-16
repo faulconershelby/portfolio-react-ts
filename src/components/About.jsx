@@ -26,7 +26,7 @@ export default function About() {
               </div>
           </div>
           <section className="about-me-stuff">
-            <h1>"stuff"</h1>
+            <h1>"about me"</h1>
             <body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Viverra tellus in hac habitasse platea. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Imperdiet sed euismod nisi porta lorem. Amet venenatis urna cursus eget nunc scelerisque. Euismod lacinia at quis risus sed vulputate odio ut. Accumsan tortor posuere ac ut consequat semper. Elit sed vulputate mi sit amet mauris commodo quis. Et netus et malesuada fames ac. Maecenas volutpat blandit aliquam etiam erat velit.
 

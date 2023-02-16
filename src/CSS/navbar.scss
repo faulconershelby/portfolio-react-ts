@@ -41,14 +41,14 @@ body{
         align-items: center;
         text-align: center ; 
         vertical-align: center;
-        line-height: 5em;
+        line-height: 4em;
         transition: 1s;
-        font-size: 1.5em;
+        font-size: (1vw + 1.5vw);
         text-decoration: none;
         color: black;
         display:block;
-        width: 5em;
-        height: 5em;
+        width: 4em;
+        height: 4em;
 
     }
 
@@ -56,7 +56,7 @@ body{
         background-color: pink;
     }
 
-    @media (max-width:700px) {
+    @media (max-width:700vw) {
         .navbar h1 {
             display: flex;
         }
@@ -84,9 +84,9 @@ body{
         margin-right: -2rem;
         margin-bottom: 2rem;
         background-color: white;
-        width: 400px;
+        width: 35vw;
         padding: 1em;
-        height: 100vh;
+        height: 95vh;
         margin-top: 2rem;
         position: fixed;
         align-items: center;
@@ -100,8 +100,8 @@ body{
         align-self: center;
         border-bottom: 1px solid gray;
         width: 103%;
-        padding-bottom: 1rem;
-        padding-left: 4.5rem;
+        padding-bottom: .5vh;
+        padding-left: 3.5vw;
         text-align: justify-self;
     }
 
