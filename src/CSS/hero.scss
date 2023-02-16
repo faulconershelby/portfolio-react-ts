@@ -4,8 +4,9 @@
   display: grid;
   grid-template-columns: 60% 40%;
   height: 100vh;
+  width: 30vw;
   margin-top: 6em;
-  margin-left: 20vw;
+  margin-left: 17vw;
   font-size: 1.25vw;
 }
 
@@ -72,7 +73,7 @@ button:hover{
   font-size: 3rem;
 }
 
-@media (max-width:4vw) {
+@media (max-width:6vw) {
   .hero-main{
     grid-template-columns: repeat(auto-fill, minmax(2vw, 1vh));
     margin-top: 1rem;
@@ -99,7 +100,7 @@ button:hover{
     margin-top: -1em;
   }
   .buttonWrap {
-    margin-left: 1vw;
+    margin-left: 1.5vw;
   }
   .hero-main{
     opacity: 1;
