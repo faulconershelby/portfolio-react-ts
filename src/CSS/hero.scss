@@ -5,7 +5,8 @@
   grid-template-columns: 60% 40%;
   height: 100vh;
   margin-top: 6em;
-  margin-left: 10em;
+  margin-left: 20vw;
+  font-size: 1.25vw;
 }
 
 .heading-section {
@@ -29,7 +30,7 @@ body{
 }
 
 .about{
-  margin-left: -4em;
+  // margin-left: -4em;
   font-weight: 600;
   font-family: 'Corben', cursive;
   color: rgb(95, 94, 94);
@@ -71,15 +72,15 @@ button:hover{
   font-size: 3rem;
 }
 
-@media (max-width:700px) {
+@media (max-width:4vw) {
   .hero-main{
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    margin-top: 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(2vw, 1vh));
+    margin-top: 1rem;
   }
 
   .cursor{
-    font-size: 2rem;
-    z-index: -3;
+    font-size: 1.5vw;
+    z-index: center;
   }
 
   .box-object{
@@ -98,7 +99,7 @@ button:hover{
     margin-top: -1em;
   }
   .buttonWrap {
-    margin-left: 2px;
+    margin-left: 1vw;
   }
   .hero-main{
     opacity: 1;

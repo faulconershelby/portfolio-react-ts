@@ -1,6 +1,7 @@
-import '../CSS/animation.css'
-import '../CSS/navbar.scss'
-import { React, useState } from 'react'
+import '../CSS/animation.css';
+import '../CSS/navbar.scss';
+import { React, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // @to-do add focus to spans
 
@@ -20,10 +21,10 @@ const Navbar = () => {
         </div>
       </h1>
       <ul id="navs" className = {open ? 'navigation-open': 'navigation-close'}>
-        <li><a href = "#"> Home </a></li>
-        <li><a href = "#"> About </a></li>
-        <li><a href = "#"> Contact </a></li>
-        <li><a href = "#"> Portfolio </a></li>
+        <li><Link to = "/"> Home </Link></li>
+        <li><Link to = "/about"> About </Link></li>
+        <li><Link to = "/contact"> Contact </Link></li>
+        <li><Link to = "/portfolio"> Portfolio </Link></li>
       </ul>
     </div>
   );

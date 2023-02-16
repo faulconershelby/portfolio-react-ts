@@ -4,7 +4,14 @@ import Hero from ".//components/Hero";
 import { Canvas } from '@react-three/fiber';
 import Tourus from './/components/tourus3d';
 
-export default function App() {
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
+export default function App(props) {
+  const { children } = props;
 
   return (
     <>
@@ -14,7 +21,7 @@ export default function App() {
 
       <div style = {{position: "fixed", width:"0%"}}>
         <Navbar/>
-        <Hero/>
+        {children}
       </div>  
 
     </>
